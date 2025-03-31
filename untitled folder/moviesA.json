@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Movie A1",
+    "description": "Description for Movie A1",
+    "imageUrl": "x.jpg",
+    "videoUrl": "/output_video_with_gaze.mp4",
+    "category": "trending"
+  },
+  {
+    "id": "2",
+    "title": "Movie A2",
+    "description": "Description for Movie A2",
+    "imageUrl": "x.jpg",
+    "videoUrl": "",
+    "category": "newReleases"
+  }
+]
+
+
