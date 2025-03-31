@@ -62,6 +62,11 @@ function MovieDetail() {
     navigate(`/movie/${prevMovieId}`);
   };
 
+  // Check if a video URL is stored in local storage for this movie.
+  // The key is constructed as "videoUrl-{movie.id}".
+  const storedVideoUrl = localStorage.getItem(`videoUrl-${movie.id}`);
+  const videoUrlToUse = storedVideoUrl ? storedVideoUrl : movie.videoUrl;
+
   return (
     <div className="movie-detail-container">
       <div className="back-link">
@@ -70,10 +75,10 @@ function MovieDetail() {
       <div className="movie-detail-content">
         <h1 className="movie-title">{movie.title}</h1>
         <p className="movie-description">{movie.description}</p>
-        {movie.videoUrl ? (
+        {videoUrlToUse ? (
           <div className="video-wrapper">
             <video key={movie.id} className="movie-video" controls>
-              <source src={movie.videoUrl} type="video/mp4" />
+              <source src={videoUrlToUse} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
