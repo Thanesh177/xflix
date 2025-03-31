@@ -1,0 +1,42 @@
+[
+    {
+      "id": "3",
+      "title": "Movie B1",
+      "description": "Description for Movie B1",
+      "imageUrl": "play.jpg",
+      "videoUrl": "/1.mp4",
+      "category": "trending"
+    },
+    {
+      "id": "4",
+      "title": "Movie B2",
+      "description": "XXX",
+      "imageUrl":  "play.jpg",
+      "videoUrl": "/2.mp4",
+      "category": "trending"
+    },
+    {
+      "id": "5",
+      "title": "Movie B2",
+      "description": "XXX",
+      "imageUrl":  "play.jpg",
+      "videoUrl": "/3.mov",
+      "category": "trending"
+    },
+    {
+      "id": "6",
+      "title": "Movie B2",
+      "description": "XXX",
+      "imageUrl":  "play.jpg",
+      "videoUrl": "/4.mp4",
+      "category": "trending"
+    },
+    {
+      "id": "7",
+      "title": "Movie B2",
+      "description": "XXX",
+      "imageUrl":  "play.jpg",
+      "videoUrl": "/5.mov",
+      "category": "trending"
+    }
+  ]
