@@ -1,0 +1,62 @@
+/* PasscodeGate.css */
+
+.passcode-gate-container {
+    background-color: #121212;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .passcode-gate-panel {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .passcode-gate-panel h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .passcode-gate-panel p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #bbbbbb;
+  }
+  
+  .passcode-gate-panel input {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    outline: none;
+  }
+  
+  .passcode-gate-panel input:focus {
+    border-color: #555;
+  }
+  
+  .passcode-gate-panel button {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .passcode-gate-panel button:hover {
+    background-color: #555;
+  }

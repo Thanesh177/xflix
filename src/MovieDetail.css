@@ -1,0 +1,102 @@
+/* MovieDetail.css */
+.movie-detail-container {
+  padding: 2rem;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  min-height: 100vh;
+  color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.back-link a {
+  color: #66ccff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back-link a:hover {
+  color: #99ddff;
+}
+
+.movie-detail-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #66ccff;
+}
+
+.movie-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #cfcfcf;
+}
+
+.video-wrapper {
+  margin-bottom: 2rem;
+}
+
+.movie-video {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.movie-video:hover {
+  transform: scale(1.02);
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.navigation-buttons button {
+  flex: 1;
+  margin: 0 0.5rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #171a1c;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+  background: transparent;
+  color: white;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .movie-detail-content {
+    padding: 1.5rem;
+  }
+  .movie-title {
+    font-size: 2rem;
+  }
+  .movie-description {
+    font-size: 1rem;
+  }
+  .navigation-buttons button {
+    font-size: 0.9rem;
+    padding: 0.7rem 0.8rem;
+  }
+}
